@@ -1,0 +1,47 @@
+.form-patient {
+    width: 30%;
+    height: 150px;
+    /*background-image: url('./imgs/form-background-2.jpg');     background-size: cover; 
+*/
+/*     background-color: rgb(155, 121, 125);
+ */    align-self: center;
+    color:white;
+    padding-top: 110px;
+    padding-left: 25%;
+    margin-left: 17%;
+    margin-bottom: -10px;
+}
+
+h4 {
+    padding-left: 33rem;
+    color:rgb(167, 88, 97) ;
+    font-size: 24px;
+}
+
+input {
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 40%;
+}
+
+reservation-form button {
+    color: white;
+}
+
+.certificate {
+
+    border-width: 200px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 0.5px #ccc;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    width: 20%;
+    margin-left: 37px;
+}

@@ -1,0 +1,44 @@
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+form {
+  margin-top: 15px;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 13%;
+  padding-left: 75px;
+  margin-right: 150px;
+  border: 2px red;
+  padding-bottom: 15rem;
+  color: whitesmoke;
+  margin-bottom: 0rem;
+}
+
+input {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 15px;
+  border: 0.5px solid #ccc;
+  border-radius: 30px;
+  width: 200px;
+}
+
+button {
+  border-width: 200px;
+  margin-top: 15px;
+  padding: 10px;
+  border: 0.5px #ccc;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  width: 20%;
+  margin-left: 32px;
+  height: 25px;
+  color: white;
+  background-color: rgb(167, 88, 97);
+}

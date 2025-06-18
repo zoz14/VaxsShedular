@@ -1,0 +1,22 @@
+.body{ max-height:max-content;
+}
+.table{
+margin-left: 45px;
+margin-top: 20px;
+margin-bottom: 493px;
+ width: 90%;
+ 
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    color: white;
+    background-color: rgb(196, 121, 130);
+  }
+  tr:hover {
+    background-color: #f9f9f9;
+  }

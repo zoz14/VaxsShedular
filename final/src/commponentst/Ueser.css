@@ -1,0 +1,33 @@
+.mvc-table {
+  width: 180%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  }
+  
+ th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  .mvc-title{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 15px;
+      color: rgb(167, 88, 97);
+         width: 100%;
+  }
+ th {
+  color: white;
+  background-color: rgb(196, 121, 130);  }
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+ 
+  .user-btn{
+   background-color: rgb(167, 88, 97);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  }
+  

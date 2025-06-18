@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "UpdateVaccine",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservationDto",
+        "Type": "Reserve_final.DtoData.ReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "Accept",
+    "RelativePath": "api/Reservation/Accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Reserve_final.DtoData.dtoAccept",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "CreateBook",
+    "RelativePath": "api/Reservation/addbook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationDto",
+        "Type": "Reserve_final.DtoData.ReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Reservation/book{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "GetCertification",
+    "RelativePath": "api/Reservation/GetCertification/{idCert}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCert",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "GetUserBy",
+    "RelativePath": "api/Reservation/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reserve_final.Controllers.ReservationController",
+    "Method": "GetVacc",
+    "RelativePath": "api/Reservation/GetVacc/{idvacc}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idvacc",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

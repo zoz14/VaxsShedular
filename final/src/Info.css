@@ -1,0 +1,111 @@
+.all{
+    margin-right: 20px;
+}
+.left-container {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.navbar{
+    padding-top: 0rem;
+}
+.VaccinationCentersAndVaccines{
+    margin-top: 50px;
+padding-left: 50px;
+padding-right:0px;
+color: rgb(236, 236, 245);
+margin-right: 15px;
+line-height: 1.5;
+
+}
+.VaxHub-image{
+    background-image: url('./imgs/VaxHub.jpg');
+    height: 200px;
+    max-width: 20%;
+    text-align: right;
+    padding-left: 250px;
+    margin-left:350px; /*play here to adjust the img*/
+    padding-top: 25px;
+    margin-top: 45px;
+}
+.ImmuCareClinic-image{
+    background-image: url('./imgs/ImmuCare\ Clinic.jpg');
+    height: 200px;
+    max-width: 20%;
+    text-align: right;
+    padding-left: 250px;
+    margin-left:320px; /*play here to adjust the img*/
+    margin-top: 45px;
+
+}.SafeArmClinic-image{
+    background-image: url('./imgs/SafeArm\ Clinic.jpg');
+    height: 200px;
+    max-width: 20%;
+    text-align: right;
+    padding-left:250px;
+    margin-left:400px; /*play here to adjust the img*/
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+.info-image{
+    background-image: url('./imgs/OIP.jpg');
+    height: 200px;
+    max-width: 20px;
+    text-align: right;
+    padding-left:180px;
+    margin-left:55rem; /*play here to adjust the img*/
+    background-size: contain;
+
+}
+p{
+    color: whitesmoke;
+}
+strong,
+.li-v{
+    color: rgb(167, 88, 97);
+}
+ul{
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.centerNotation{
+    margin-top: 50px;
+}
+.center{
+    margin-top: 35px; 
+    display: flex;
+    position: relative;
+    margin-left: 0px;
+    width: 95%;
+}
+.description{
+float: left;  
+margin-right: 10px;
+text-align: left; 
+}
+button{
+    background-color: rgb(167, 88, 97);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 42%;
+   /*  border-radius: 15px;
+    transition-duration: 0.4s;
+     */
+}
+
+button:hover {
+        background-color:white ; 
+        color: cadetblue; 
+    }
+.images {
+     height: 50px; 
+           width: 10px; 
+        text-align: right;
+        padding-left: 250px;
+        margin-left: 550px; 
+     margin-top: 45px; 
+     
+}

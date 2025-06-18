@@ -1,0 +1,22 @@
+.admin-chat-btn {
+    color: pink;
+}
+
+.chat-box {
+    color: rgb(167, 88, 97);
+    border-style: solid;
+    width: 40%;
+    margin-left: 300px;
+
+}
+
+.message-input {
+    padding-left: 150px;
+    width: 80%;
+    height: 40%;
+    padding-bottom: 10px;
+}
+
+.body {
+    background-color: cadetblue;
+}

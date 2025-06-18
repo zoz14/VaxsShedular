@@ -1,0 +1,39 @@
+/* VaccineCenterTable.css (create a separate CSS file)
+
+/* Optional: Apply general styling to the table */
+.mvc-table {
+  width: 150%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  color: white;
+  background-color: rgb(196, 121, 130);
+}
+.mvc-title{
+  margin-top: 20px;
+margin-left: 300px;
+margin-bottom: 15px;
+  color: rgb(167, 88, 97);
+     width: 100%;
+    }
+.mvc-btn {
+  background-color: rgb(167, 88, 97);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect to rows */
+tr:hover {
+  background-color: #f9f9f9;
+}

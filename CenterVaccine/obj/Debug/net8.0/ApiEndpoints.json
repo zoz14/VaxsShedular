@@ -1,0 +1,197 @@
+[
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "CreateCenter",
+    "RelativePath": "api/Center/addcenter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "centerDto",
+        "Type": "CenterApi.DtoData.CenterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "AddVaccineToCenter",
+    "RelativePath": "api/Center/addvaccinetocenter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CenterApi.DtoData.CenterVaccineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "DeleteCenter",
+    "RelativePath": "api/Center/deletecenter{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "GetAllCenter",
+    "RelativePath": "api/Center/getallcenter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "GetCenterById",
+    "RelativePath": "api/Center/getcenter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "RemoveVaccineFromCenter",
+    "RelativePath": "api/Center/removevaccinefromcenter/{centerId}/{vaccineId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "centerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.CenterController",
+    "Method": "UpdateCenter",
+    "RelativePath": "api/Center/updatecenter/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "centerDto",
+        "Type": "CenterApi.DtoData.CenterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.VaccineController",
+    "Method": "CreateVaccine",
+    "RelativePath": "api/Vaccine/addvaccine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaccineDto",
+        "Type": "CenterApi.DtoData.VaccineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.VaccineController",
+    "Method": "AddVaccineToCenter",
+    "RelativePath": "api/Vaccine/addvaccinetocenter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CenterApi.DtoData.CenterVaccineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.VaccineController",
+    "Method": "DeleteVaccine",
+    "RelativePath": "api/Vaccine/deletevaccine",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.VaccineController",
+    "Method": "GetAllVaccine",
+    "RelativePath": "api/Vaccine/getallvaccine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CeneterApi.Controllers.VaccineController",
+    "Method": "UpdateVaccine",
+    "RelativePath": "api/Vaccine/updatevaccine/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccineDto",
+        "Type": "CenterApi.DtoData.VaccineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
